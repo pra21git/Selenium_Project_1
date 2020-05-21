@@ -1,7 +1,5 @@
-/**
- * This test verifies the user Login and Logout
- */
-//var envDetails = require('../../DataFiles/json/envDetails.json');
+
+var envDetails = require('../../DataFiles/json/envDetails.json');
 var loginPage = require('../../Pages/Guest Services/LoginPage');
 var testData = require('../../DataFiles/json/testData.json');
 var dashboardPage = require('../../pages/Guest Services/DashboardPage');
@@ -19,7 +17,7 @@ beforeEach(function ()
 
 describe(' Finance Dashboard', function () {
 
-  xit('TC01_Verify Finance Dashboard', function () {
+  it('TC01_Verify Finance Dashboard', function () {
     console.log('Launch Application with url'); // Prints in the console 
     loginPage.fn_LaunchURL();
     console.log('User Entered Username and Password'); // Prints in the console 
@@ -39,7 +37,7 @@ describe(' Finance Dashboard', function () {
 
   });
 
-  xit('TC02_Verify Finance Dashboard Home Page', function () {
+  it('TC02_Verify Finance Dashboard Home Page', function () {
     console.log('Launch Application with url'); // Prints in the console 
     loginPage.fn_LaunchURL();
     console.log('User Entered Username and Password'); // Prints in the console 
@@ -58,7 +56,7 @@ describe(' Finance Dashboard', function () {
     financeHomePage.fn_VerifyGraphItems();
   });
  
-  xit('TC03_Verify Finance Director Dashboard', function () {
+  it('TC03_Verify Finance Director Dashboard', function () {
     console.log('Launch Application with url'); // Prints in the console 
     loginPage.fn_LaunchURL();
     console.log('User Entered Username and Password'); // Prints in the console 
@@ -80,7 +78,7 @@ describe(' Finance Dashboard', function () {
 
   });
 
-  xit('TC04_Verify Finance Director Dashboard Credit Card Status', function () {
+  it('TC04_Verify Finance Director Dashboard Credit Card Status', function () {
     console.log('Launch Application with url'); // Prints in the console 
     loginPage.fn_LaunchURL();
     console.log('User Entered Username and Password'); // Prints in the console 
@@ -106,7 +104,7 @@ describe(' Finance Dashboard', function () {
 
   });
 
-  xit('TC05_Verify Finance Director Dashboard Number Of Accounts', function () {
+  it('TC05_Verify Finance Director Dashboard Number Of Accounts', function () {
     console.log('Launch Application with url'); // Prints in the console 
     loginPage.fn_LaunchURL();
     console.log('User Entered Username and Password'); // Prints in the console 
@@ -132,7 +130,7 @@ describe(' Finance Dashboard', function () {
 
   });
 
-  xit('TC06_Verify Correct Search', function () {
+  it('TC06_Verify Correct Search', function () {
     console.log('Launch Application with url'); // Prints in the console 
     loginPage.fn_LaunchURL();
     console.log('User Entered Username and Password'); // Prints in the console 
