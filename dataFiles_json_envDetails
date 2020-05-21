@@ -1,12 +1,12 @@
 {
     "Environment": {        
-        "DevBox": "http://zzipcsrv1.shipdev.carnival.com/Latitude",
-        "SITBox": "https://zzipcsrv1.shipdev.carnival.com/LatitudeTest/#/Login",
-        "UATBox": "http://zzipcsrv1.shipdev.carnival.com/LatitudeUAT"
+    
+        "SITBox": " ",
+        "UATBox": " "
     },    
     "credentials": {
-        "Username": "VS417101",
-        "Password": "Carnival@2019"
+        "Username": " ",
+        "Password": " "
     }
 
 }
