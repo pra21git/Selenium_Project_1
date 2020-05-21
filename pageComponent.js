@@ -1,6 +1,4 @@
-/**
- * This page class contains all the webelemnts of Fianance Home Page 
- */
+
 var dashboardPage = require('../Guest Services/DashboardPage');
 var helper = require('protractor-helper');
 var EC = protractor.ExpectedConditions;
@@ -24,8 +22,6 @@ var FinanceHomePage=function(){
     var noOfAccountChart=by.xpath("//div[contains(@class,'chart-header') and contains(.,'NUMBER OF ACCOUNTS')]");
     var arrowSelectVoyage=by.xpath("//span[contains(@class,'ui-dropdown-trigger-icon')]");
     var selectVoyage=by.xpath("//li[contains(@class,'i-dropdown-item')][1]");
-    ////label[contains(.,'Select Voyage')]
-    ////span[contains(@class,'ui-dropdown-trigger-icon')]
     var guestlabel=by.xpath("//div[@class='item-label' and contains(.,'GUEST')]");
     var crewlabel=by.xpath("//div[@class='item-label' and contains(.,'CREW')]");
     var execlabel=by.xpath("//div[@class='item-label' and contains(.,'EXEC')]");
@@ -288,22 +284,6 @@ var FinanceHomePage=function(){
 
            
         });
-
-
-        //let itemslist=element.all(firstnamecol);
-
-
-        
-       
-       
-       
-
-            //console.log('Total length is '+items.count());
-        //});
-
-      
-    
-
 
     }
 
